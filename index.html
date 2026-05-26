@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Derma Ethica - Beauty Salon</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <!-- HEADER SA NAVIGACIJOM -->
+
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <div class="logo">
+            <img src="images/FINAL.svg" alt="Derma ethica Logo" />
+            <a href="index.html" class="home"><h1>Derma Ethica</h1></a>
+          </div>
+
+          <nav>
+            <div class="hamburger" id="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
+            <ul id="nav-menu">
+              <li><a href="index.html" class="active">Početna</a></li>
+              <li><a href="services.html">Usluge</a></li>
+              <li><a href="reservations.html">Rezervacije</a></li>
+              <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+          </nav>
+
+          <!-- DUGMAD -->
+          <div class="theme-switcher">
+            <button
+              class="theme-btn green"
+              data-theme="green"
+              title="Zelena tema"
+            ></button>
+            <button
+              class="theme-btn pink"
+              data-theme="pink"
+              title="Roze tema"
+            ></button>
+            <button
+              class="theme-btn yellow"
+              data-theme="yellow"
+              title="Zuta tema"
+            ></button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- HERO SEKCIJA -->
+
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h2>Dobrodošli u Derma ethica!</h2>
+          <p>Vaš partner za zdraviju i lepšu kožu lica.</p>
+          <a href="reservations.html" class="btn-primary">Zakažite tretman</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PREGLED USLUGA -->
+
+    <main>
+      <section class="services-preview">
+        <div class="container">
+          <h2>Naše usluge</h2>
+
+          <div class="services-grid">
+            <div class="service-card">
+              <img
+                src="images/1-MEDICINSKI TRETMAN LICA.webp"
+                alt="Medicinski tretman lica"
+              />
+              <h3>Dubinsko čišćenje lica</h3>
+              <p>
+                Profesionalno čišćenje koje uklanja nečistoće i obnavlja sjaj
+                kože.
+              </p>
+              <span class="price">3.500 RSD</span>
+            </div>
+
+            <div class="service-card">
+              <img
+                src="images/2-MEDICINSKI TRETMAN LICA.webp"
+                alt="Medicinski tretman lica 2"
+              />
+              <h3>Anti-age tretman</h3>
+              <p>
+                Napredni tretman koji smanjuje bore i vraća mladoliki izgled.
+              </p>
+              <span class="price">5.000 RSD</span>
+            </div>
+
+            <div class="service-card">
+              <img
+                src="images/3-HIDRATACIJA LICA.webp"
+                alt="Hidratacija lica"
+              />
+              <h3>Hidratacija lica</h3>
+              <p>Intenzivna hidratacija za suvu i dehidriranu kožu.</p>
+              <span class="price">4.000 RSD</span>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <a href="services.html" class="btn-secondary">Pogledaj sve usluge</a>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h4>Derma Ethica</h4>
+            <p>Salon lepote za tretman lica</p>
+          </div>
+
+          <div class="footer-section">
+            <h4>Kontakt</h4>
+            <a href="tel:+381600000000">☎️ +381600000000</a>
+            <p>📩 info@dermaethica.rs</p>
+            <p>📍 Knez Mihailova 25, Beograd</p>
+          </div>
+
+          <div class="footer-section">
+            <h4>Radno vreme</h4>
+            <p>Ponedeljak - Petak : 9:00 - 20:00</p>
+            <p>Subota : 10:00 - 18:00</p>
+            <p>Nedelja : Zatvoreno</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 Derma Ethica. Sva prava zadržana.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

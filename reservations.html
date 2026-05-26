@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rezervacije - Derma Ethica</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <!-- HEADER SA NAVIGACIJOM -->
+
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <div class="logo">
+            <img src="images/FINAL.svg" alt="Derma ethica Logo" />
+            <a href="index.html" class="home"><h1>Derma Ethica</h1></a>
+          </div>
+
+          <nav>
+            <div class="hamburger" id="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
+            <ul id="nav-menu">
+              <li><a href="index.html">Početna</a></li>
+              <li><a href="services.html">Usluge</a></li>
+              <li>
+                <a href="reservations.html" class="active">Rezervacije</a>
+              </li>
+              <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+          </nav>
+
+          <!-- DUGMAD -->
+          <div class="theme-switcher">
+            <button
+              class="theme-btn green"
+              data-theme="green"
+              title="Zelena tema"
+            ></button>
+            <button
+              class="theme-btn pink"
+              data-theme="pink"
+              title="Roze tema"
+            ></button>
+            <button
+              class="theme-btn yellow"
+              data-theme="yellow"
+              title="Zuta tema"
+            ></button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h2>Zakažite tretman</h2>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <section class="reservation-section">
+        <div class="container">
+          <form id="reservationForm" class="reservation-form">
+            <div class="form-group">
+              <label for="clientName">Ime i prezime *</label>
+              <input type="text" id="clientName" name="clientName" required />
+            </div>
+
+            <div class="form-group">
+              <label for="treatment">Izaberite tretman *</label>
+              <select name="treatment" id="treatment" required>
+                <option value="">-- Izaberite tretman --</option>
+                <option value="Dubinsko čišćenje lica">
+                  Dubinsko čišćenje lica (3.500 RSD)
+                </option>
+                <option value="Anti-age tretman">
+                  Anti-age tretman (5.000 RSD)
+                </option>
+                <option value="Hidratacija lica">
+                  Hidratacija lica (4.000 RSD)
+                </option>
+                <option value="Vitamin C tretman">
+                  Vitamin C tretman (4.500 RSD)
+                </option>
+                <option value="Tretman akni">Tretman akni (4.000 RSD)</option>
+                <option value="Masaža lica">Masaža lica (3.000 RSD)</option>
+              </select>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="date">Datum *</label>
+                <input type="date" id="date" name="date" required />
+              </div>
+
+              <div class="form-group">
+                <label for="time">Vreme *</label>
+                <input type="time" id="time" name="time" required />
+              </div>
+            </div>
+            <button type="submit" class="btn-primary">
+              Kreiraj rezervaciju
+            </button>
+          </form>
+
+          <div class="reservations-list">
+            <h3>Vaše rezervacije</h3>
+
+            <div id="reservationsContainer" class="reservations-grid">
+              <p class="no-reservations">
+                Trenutno nema rezervacija <br />
+                Popunite formu iznad da napravite novu rezervaciju
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h4>Derma Ethica</h4>
+            <p>Salon lepote za tretman lica</p>
+          </div>
+
+          <div class="footer-section">
+            <h4>Kontakt</h4>
+            <a href="tel:+381600000000">☎️ +381600000000</a>
+            <p>📩 info@dermaethica.rs</p>
+            <p>📍 Knez Mihailova 25, Beograd</p>
+          </div>
+
+          <div class="footer-section">
+            <h4>Radno vreme</h4>
+            <p>Ponedeljak - Petak : 9:00 - 20:00</p>
+            <p>Subota : 10:00 - 18:00</p>
+            <p>Nedelja : Zatvoreno</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 Derma Ethica. Sva prava zadržana.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

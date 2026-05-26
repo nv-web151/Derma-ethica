@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Usluge - Derma Ethica</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <!-- HEADER SA NAVIGACIJOM -->
+
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <div class="logo">
+            <img src="images/FINAL.svg" alt="Derma ethica Logo" />
+            <a href="index.html" class="home"><h1>Derma Ethica</h1></a>
+          </div>
+
+          <nav>
+            <div class="hamburger" id="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
+            <ul id="nav-menu">
+              <li><a href="index.html">Početna</a></li>
+              <li><a href="services.html" class="active">Usluge</a></li>
+              <li><a href="reservations.html">Rezervacije</a></li>
+              <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+          </nav>
+
+          <!-- DUGMAD -->
+          <div class="theme-switcher">
+            <button
+              class="theme-btn green"
+              data-theme="green"
+              title="Zelena tema"
+            ></button>
+            <button
+              class="theme-btn pink"
+              data-theme="pink"
+              title="Roze tema"
+            ></button>
+            <button
+              class="theme-btn yellow"
+              data-theme="yellow"
+              title="Zuta tema"
+            ></button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- USLUGE SEKCIJA -->
+
+    <main>
+      <section class="service-section">
+        <div class="container">
+          <h2>O nama</h2>
+          <div class="service-content">
+            <p>
+              Derma Ethica je vodeći salon lepote specijalizovan za tretmane
+              lica. Sa preko 10 godina iskustva, naš tim stručnjaka posvećen je
+              pružanju vrhunskih usluga koje će vašu kožu učiniti zdravijom i
+              lepšom.
+            </p>
+            <p>
+              Koristimo najsavremenije proizvode i tehnike kako bismo osigurali
+              najbolje rezultate za svaki tip kože. Naša misija je da svaki
+              klijent napusti salon osećajući se samopouzdanije i lepše.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SVE USLUGE -->
+      <section class="services-preview">
+        <div class="container">
+          <h2>Naše usluge</h2>
+
+          <div class="services-grid">
+            <div class="service-card">
+              <img
+                src="images/1-MEDICINSKI TRETMAN LICA.webp"
+                alt="Medicinski tretman lica"
+              />
+              <h3>Dubinsko čišćenje lica</h3>
+              <p>
+                Profesionalno čišćenje koje uklanja nečistoće i obnavlja sjaj
+                kože.
+              </p>
+              <span class="price">3.500 RSD</span>
+            </div>
+
+            <div class="service-card">
+              <img
+                src="images/2-MEDICINSKI TRETMAN LICA.webp"
+                alt="Medicinski tretman lica 2"
+              />
+              <h3>Anti-age tretman</h3>
+              <p>
+                Napredni tretman koji smanjuje bore i vraća mladoliki izgled.
+              </p>
+              <span class="price">5.000 RSD</span>
+            </div>
+
+            <div class="service-card">
+              <img
+                src="images/3-HIDRATACIJA LICA.webp"
+                alt="Hidratacija lica"
+              />
+              <h3>Hidratacija lica</h3>
+              <p>Intenzivna hidratacija za suvu i dehidriranu kožu.</p>
+              <span class="price">4.000 RSD</span>
+            </div>
+
+            <div class="service-card">
+              <img
+                src="images/4-VITAMIN C TRETMAN.webp"
+                alt="Vitamin C tretman"
+              />
+              <h3>Vitamin C tretman</h3>
+              <p>
+                Osvežava i izjednačava ton kože, daje prirodan sjaj i smanjuje
+                hiperpigmentaciju.
+              </p>
+              <span class="price">4.500 RSD</span>
+            </div>
+            <div class="service-card">
+              <img src="images/5-TRETMAN AKNI.webp" alt="Tretman akni" />
+              <h3>Tretman akni</h3>
+              <p>
+                Specijalizovani tretman za problematičnu kožu sklonu aknama i
+                upali.
+              </p>
+              <span class="price">4.000 RSD</span>
+            </div>
+            <div class="service-card">
+              <img src="images/6-MASAŽA LICA.webp" alt="Masaža lica" />
+              <h3>Masaža lica</h3>
+              <p>
+                Opuštajuća masaža koja poboljšava cirkulaciju i vraća prirodnu
+                ravnotežu kože.
+              </p>
+              <span class="price">3.000 RSD</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- SHOW / HIDE DUGME -->
+
+        <div class="text-center">
+          <button id="toggleInfo" class="btn-secondary">
+            Prikaži više informacija
+          </button>
+        </div>
+
+        <div id="additionalInfo" class="additional-info">
+          <h3>Često postavljana pitanja (FAQ)</h3>
+
+          <div class="faq-item">
+            <h4>Koliko dugo traju rezultati tretmana?</h4>
+            <p>
+              Rezultati zavise od tipa tretmana i stanja vaše kože. Većina
+              tretmana daje vidljive rezultate odmah, a dugotrajni efekti se
+              postižu redovnim tretmanima jednom mesečno.
+            </p>
+          </div>
+
+          <div class="faq-item">
+            <h4>Da li su tretmani bezbedni za osetljivu kožu?</h4>
+            <p>
+              Da! Pre svakog tretmana radimo konsultaciju i test na alergije
+              kako bismo osigurali da su proizvodi prilagođeni vašem tipu kože.
+            </p>
+          </div>
+
+          <div class="faq-item">
+            <h4>Mogu li kombinovati više tretmana?</h4>
+            <p>
+              Apsolutno! Naši stručnjaci će vam preporučiti najbolju kombinaciju
+              tretmana za vaše potrebe.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h4>Derma Ethica</h4>
+            <p>Salon lepote za tretman lica</p>
+          </div>
+
+          <div class="footer-section">
+            <h4>Kontakt</h4>
+            <a href="tel:+381600000000">☎️ +381600000000</a>
+            <p>📩 info@dermaethica.rs</p>
+            <p>📍 Knez Mihailova 25, Beograd</p>
+          </div>
+
+          <div class="footer-section">
+            <h4>Radno vreme</h4>
+            <p>Ponedeljak - Petak : 9:00 - 20:00</p>
+            <p>Subota : 10:00 - 18:00</p>
+            <p>Nedelja : Zatvoreno</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 Derma Ethica. Sva prava zadržana.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
