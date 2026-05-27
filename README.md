@@ -45,7 +45,7 @@ Derma Ethica je potpuno responzivan sajt kreiran sa HTML5, CSS3 i JavaScript-om.
 - Responzivan dizajn (za telefon i desktop računar)
 - Semantički HTML5
 - CSS Grid i Flexbox layout
-- Sticky header navigacija (Header se ne pomera dok korisnik skroluje stranicu)
+- Sticky header navigacija
 - Glatke animacije i tranzicije
 
 ### Struktura projekta :
