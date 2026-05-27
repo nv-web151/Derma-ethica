@@ -50,7 +50,7 @@ Derma Ethica je potpuno responzivan sajt kreiran sa HTML5, CSS3 i JavaScript-om.
 
 ### Struktura projekta :
 
-- U folderu Derma Ethica - Nikola Vatreš III2 se nalaze :
+- U folderu Derma ethica - Nikola Vatreš III2 se nalaze :
 
 1. /images podfolder, koji sadrži 7 fajlova (6 webp slika i 1 svg vektor)
 2. index.html (Početna stranica)
